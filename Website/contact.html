@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #6a11cb;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px #aaa;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #6a11cb;
+            box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+        }
+
+        input[type="submit"] {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background: linear-gradient(to right, #2575fc, #6a11cb);
+        }
+
+        img {
+            margin-top: 20px;
+            height: 70px;
+            opacity: 0.8;
+        }
+
+        img:hover {
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea rows="5" cols="30" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <img src="https://cdn-icons-png.flaticon.com/512/725/725643.png" alt="Contact Us Icon">
+    </div>
+</body>
+</html>
