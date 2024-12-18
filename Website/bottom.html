@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            min-height: 100vh;
+        }
+
+        .footer {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+            font-size: 16px;
+        }
+
+        .footer h3 {
+            margin: 0;
+            font-size: 18px;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        .footer-icons {
+            margin: 10px 0;
+        }
+
+        .footer-icons a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            display: inline-block;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .footer-icons a:hover {
+            transform: scale(1.2);
+            color: #ffdd57;
+        }
+
+        .footer-icons img {
+            height: 24px;
+            width: 24px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 600px) {
+            .footer h3 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <h3>&copy; 2024 E-Commerce Website. All Rights Reserved.</h3>
+        <div class="footer-icons">
+            <a href="#" title="Facebook">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+            </a>
+            <a href="#" title="Twitter">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+            </a>
+            <a href="#" title="Instagram">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+            </a>
+            <a href="#" title="LinkedIn">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733561.png" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
